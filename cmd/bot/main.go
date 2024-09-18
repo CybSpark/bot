@@ -3,10 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	result := add(1, 2)
-	fmt.Println(result)
+	printer("hello world")
 }
 
-func add(a, b int) int {
-	return a + b
+func printer(v interface{}) {
+	fmt.Println(v)
 }
