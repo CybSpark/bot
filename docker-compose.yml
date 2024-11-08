@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  go-bot:
+    image: cybspark/bot-go-bot:latest
+    ports:
+      - "28080:28080"
